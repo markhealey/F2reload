@@ -61,8 +61,6 @@ F2.Apps["com_openf2_examples_javascript_helloworld_reload"] = (function() {
 		this.$root = null;
 		this.appConfig.root = null;
 		this.appConfig.context = $.extend( {}, this.appConfig.context, { newProp:'newValue', reloaded: true } );
-		
-		//F2.removeApp(this.appConfig.instanceId);
 		F2.registerApps(this.appConfig);
 	};
 
