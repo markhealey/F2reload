@@ -1,12 +1,4 @@
 {
-	"csharp": [
-		{
-			"appId": "com_openf2_examples_csharp_helloworld",
-			"manifestUrl": "../apps/CSharp/Apps/HelloWorld",
-			"name": "Hello World (C#)"
-		}
-	],
-
 	"js": [
 		{
 			"appId": "com_openf2_examples_javascript_chart",
@@ -47,36 +39,11 @@
 			"appId": "com_openf2_examples_javascript_helloworld",
 			"manifestUrl": "../apps/JavaScript/HelloWorld/manifest.js",
 			"name": "Hello World (JavaScript)"
-		}
-	],
-
-	"php": [
-		{
-			"appId": "com_openf2_examples_php_f2wits",
-			"height": 200,
-			"minGridSize": 6,
-			"manifestUrl": "../apps/PHP/F2wits/manifest.js",
-			"name": "F2wits",
-			"views": ["home","about"]
 		},
 		{
-			"appId": "com_openf2_examples_php_news",
-			"manifestUrl": "../apps/PHP/News/news.php",
-			"name": "Stocks News",
-			"views": ["home", "settings"],
-			"minGridSize": 6
-		},
-		{
-			"appId": "com_openf2_examples_php_marketnews",
-			"manifestUrl": "../apps/PHP/MarketNews/marketnews.php",
-			"name": "Market News",
-			"views": ["home", "settings"],
-			"minGridSize": 6
-		},
-		{
-			"appId": "com_openf2_examples_php_helloworld",
-			"manifestUrl": "../apps/PHP/HelloWorld/helloworld.php",
-			"name": "Hello World (PHP)"
+			"appId": "com_openf2_examples_javascript_helloworld_reload",
+			"manifestUrl": "../apps/JavaScript/HelloWorldReload/manifest.js",
+			"name": "Hello World Reload (JavaScript)"
 		}
 	]
 }
