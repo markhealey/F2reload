@@ -25,7 +25,7 @@ The Container Developer controls the AppHandlers and reload logic must be suppor
 ### App Class
 
 * [Line 60](https://github.com/markhealey/F2reload/blob/master/examples/apps/JavaScript/HelloWorldReload/appclass.js#L60), there's a new function in the AppClass to handle app reloading. Note the important parts of this function:
-    * `this.$root` is set to null along with `this.appConfig.root`.
+    * `this.$root` is set to `null` along with `this.appConfig.root`.
     * The `appConfig.context` property is modified to have some new arbitrary data (`{newProp:'newValue'}`) alongside the _critical-for-this-to-work_ `reloaded:true` name/value pair. 
 * [Line 28](https://github.com/markhealey/F2reload/blob/master/examples/apps/JavaScript/HelloWorldReload/appclass.js#L28), once the app is reloaded, set the `this.appConfig.context.reloaded` property to `null`. (Since this is a demo without real data, there is some additional logic to append a `guid` to the app to prove it is reloading.)
 
